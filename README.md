@@ -1,5 +1,8 @@
 # Laravel MySQL Backup
-Laravel MySQL backup using mysqli class.
+Database backup using mysqli class. Implemented with Laravel 5.
 
-### Add a route to your route file
-'Route::get('/backup', 'DatabaseBackupController @createBackup');'
+### Uses
+Copy the controller to your `Http` Directory, then add a route in your route files.
+`Route::get('/backup', 'DatabaseBackupController @createBackup');`
+
+
